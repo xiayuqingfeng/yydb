@@ -6,7 +6,22 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e5b78f7-0f5b-488b-8427-402d3d8eb786" name="Default Changelist" comment="" />
+    <list default="true" id="3e5b78f7-0f5b-488b-8427-402d3d8eb786" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company-yyg-web-front.iml" beforeDir="false" afterPath="$PROJECT_DIR$/company-yyg-web-front.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/yyg-base.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/yyg-base.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/AreaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/AreaDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/ArticleCateDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/ArticleCateDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/BrandDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/BrandDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/SysDictDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/SysDictDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yyg-base.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yyg-base.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/WEB-INF/classes/cn/com/yyg/front/dao/AreaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/WEB-INF/classes/cn/com/yyg/front/dao/AreaDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/WEB-INF/classes/cn/com/yyg/front/dao/ArticleCateDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/WEB-INF/classes/cn/com/yyg/front/dao/ArticleCateDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/WEB-INF/classes/cn/com/yyg/front/dao/BrandDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/WEB-INF/classes/cn/com/yyg/front/dao/BrandDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/WEB-INF/classes/cn/com/yyg/front/dao/SysDictDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/WEB-INF/classes/cn/com/yyg/front/dao/SysDictDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/WEB-INF/classes/yyg-base.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/WEB-INF/classes/yyg-base.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/yyg-base.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+            <state relative-caret-position="30">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -36,7 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>yyg_user</find>
       <find>catalina.base</find>
       <find>web-app</find>
       <find>admin.css</find>
@@ -66,10 +80,14 @@
       <find>index(</find>
       <find>yyyd</find>
       <find>home/data/static</find>
+      <find>12345678</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -127,18 +145,17 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="200" />
-    <option name="y" value="126" />
-    <option name="width" value="1200" />
-    <option name="height" value="618" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1600" />
+    <option name="height" value="824" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -147,13 +164,40 @@
               <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
               <item name="ycyg" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -168,7 +212,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19090909" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -289,11 +333,13 @@
       <workItem from="1564487901106" duration="841000" />
       <workItem from="1564489328653" duration="103000" />
       <workItem from="1564489442716" duration="607000" />
+      <workItem from="1564503420118" duration="1399000" />
+      <workItem from="1564504830411" duration="1000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25239000" />
+    <option name="totallyTimeSpent" value="26639000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,9 +352,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1600" height="824" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15147625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14569962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -725,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/yyg-base.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -741,7 +786,6 @@
             <option name="proportions">
               <list>
                 <option value="0.19090909" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
