@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+.g-wrap{ width: 1200px; }
+.win-box{ width: 1200px; }
+.breadCrumb-txt{ width: 1180px; }
+#container{ width: 1200px; }
+
+/*晒单*/
+.m-shareList .item{ margin:0 25px 15px 0; }
+
+/*会员中心*/
+.hy-r{ width: 980px; }
+.hy-box{ width: 920px; }
+.hy-table{ width: 920px; }
+
+
+
+
+
+
+
+
+
+
+

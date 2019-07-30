@@ -1,0 +1,76 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x0000000061ae57c5, pid=10356, tid=10636
+#
+# JRE version: Java(TM) SE Runtime Environment (7.0_79-b15) (build 1.7.0_79-b15)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.79-b02 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# V  [jvm.dll+0x957c5]
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000010470800):  JavaThread "http-bio-80-exec-5" daemon [_thread_in_vm, id=10636, stack(0x0000000013b80000,0x0000000013c80000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x0000000680000000
+
+Registers:
+RAX=0x000000077ffff519, RBX=0x0000000000000001, RCX=0x0000000013c7ca00, RDX=0xffffffff00000ae7
+RSP=0x0000000013c7c9d8, RBP=0x0000000013c7ca10, RSI=0x0000000000002b80, RDI=0x00000000000002b6
+R8 =0x000000007ffff519, R9 =0x00000000102bfc40, R10=0x0000000000000000, R11=0x0000000000000246
+R12=0x00000000102bfc50, R13=0x0000000000000044, R14=0x00000007801fb328, R15=0x00000000102c0028
+RIP=0x0000000061ae57c5, EFLAGS=0x0000000000010296
+
+Top of Stack: (sp=0x0000000013c7c9d8)
+0x0000000013c7c9d8:   0000000061b5c274 00000000000003d8
+0x0000000013c7c9e8:   0000000000002b70 00000007801fb3b0
+0x0000000013c7c9f8:   0000000013c7ca10 000000077ffff519
+0x0000000013c7ca08:   00000000000000aa 00000000102bfc50
+0x0000000013c7ca18:   0000000013c7cac0 00000000102bfc40
+0x0000000013c7ca28:   00000000102bfc50 000000000f5e4c10
+0x0000000013c7ca38:   00000000000003d8 00000007801fb328
+0x0000000013c7ca48:   0000000061b5ba6c 00000007801fb328
+0x0000000013c7ca58:   0000000023000000 0000000013c7cac0
+0x0000000013c7ca68:   000000001c030000 000000000000b850
+0x0000000013c7ca78:   0000000000000003 0000000000000002
+0x0000000013c7ca88:   00000000102bfc40 000000000000b930
+0x0000000013c7ca98:   0000000061b5bcc3 00000000000003d8
+0x0000000013c7caa8:   00000007801fb328 000000000f5e4c10
+0x0000000013c7cab8:   0000000000000168 000000000f5dab08
+0x0000000013c7cac8:   00000bf800000001 000000aa00001a1e 
+
+Instructions: (pc=0x0000000061ae57c5)
+0x0000000061ae57a5:   cc cc cc cc cc cc cc cc cc cc cc 4c 63 01 41 8d
+0x0000000061ae57b5:   44 90 10 48 63 d0 48 8b 01 48 83 e2 fc 49 2b d0
+0x0000000061ae57c5:   8b 0c 02 0f b6 c1 89 4c 24 10 0f b6 4c 24 11 c1
+0x0000000061ae57d5:   e0 08 0b c1 0f b6 4c 24 12 c1 e0 08 0b c1 0f b6 
+
+
+Register to memory mapping:
+
+RAX=0x000000077ffff519 is pointing into object: 0x000000077ffff4d8
+{constMethod} 
+ - klass: {other class}
+ - constants:       0x000000077ffd8d18 constant pool [4245] for 'org/eclipse/jdt/internal/compiler/parser/Parser' cache=0x00000007800eb4c0
+ - stackmap data:       [B
+bci_from(000000077FFFF519) = 1; print_codes():
+RBX=0x0000000000000001 is an unknown value
+RCX=0x0000000013c7ca00 is pointing into the stack for thread: 0x0000000010470800
+RDX=0xffffffff00000ae7 is an unknown value
+RSP=0x0000000013c7c9d8 is pointing into the stack for thread: 0x0000000010470800
+RBP=0x0000000013c7ca10 is pointing into the stack for thread: 0x0000000010470800
+RSI=0x0000000000002b80 is an unknown value
+RDI=0x00000000000002b6 is an unknown value
+R8 =0x000000007ffff519 is an unknown value
+R9 =0x00000000102bfc40 is an unknown value
+R10=0x0000000000000000 is an unknown value
+R11=0x0000000000000246 is an unknown value
+R12=0x00000000102bfc50 is an unknown value
+R13=0x0000000000000044 is an unknown value
+R14=

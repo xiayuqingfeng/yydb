@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.win-box{ width: 1160px; overflow: hidden; margin: 0 auto; }
+.taba{ overflow: hidden; border-left:1px solid #ddd; }
+.taba li{ float: left; border:1px solid #ddd; border-left:0; padding: 0 20px; font-size: 16px; height: 42px; line-height: 42px; cursor: pointer;}
+.taba li.hover{ background: #e54048; border: 1px solid #e54048; color: #fff; }
+
+.win-list{ margin-left: 1px; position: relative; }
+.win-list .item{ width: 383px; height: 246px; border:1px solid #ddd; overflow: hidden; float: left; margin-left: -1px; margin-top:-1px; }
+#list-win .item.hover{
+    position: relative;
+    border: 1px solid #f60;
+    z-index: 3;
+    -moz-box-shadow:3px 3px 3px #d8d8d8;
+    -webkit-box-shadow:3px 3px 3px #d8d8d8;
+    box-shadow:3px 3px 3px #d8d8d8;
+}
+.win-list .itemc{ padding: 15px 10px; }
+.win-list .itemL{ width: 150px; min-height: 100px; overflow: hidden; float: left; }
+.win-list .itemR{ float: right; width: 210px; color: #999; line-height:18px; overflow: hidden; }
+.win-list .user-info{ position: relative; padding-left: 70px; padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1px dotted #ddd; }
+.win-list .user-info .photo{ width: 60px; height: 60px; border-radius: 50%; position: absolute; left: 0; right: 0; overflow: hidden; }
+.win-list .user-info .photo img{ width: 100%; height: 100%; }
+.win-list .user-info p{ height: 18px; overflow: hidden; word-wrap:break-word; word-break:break-all; }
+.win-list .user-info .p1{ font-size:14px; height:auto !important; max-height:36px;}
+.win-list .pro-info .tit{ font-size:14px; max-height:40px; line-height:20px; overflow:hidden; word-wrap:break-word; word-break:break-all; margin-bottom: 5px; }
+.win-list .pro-info .tit a{ color: #000; }
+.win-list .pro-info .tit a:hover{ color: #e54048}
+.win-list .button{ padding: 8px 0 0;}
+.win-list .button a{ display: block; text-align: center; width: 98px; height: 24px; line-height: 24px; border: 1px solid #FFAD77; border-radius: 3px; color: #F60; font-size: 14px; }
+.win-list .button a:hover{ background: #ff6600; color: #fff; border-color:#f60 }
+.win-list .btn-ymy{ display: inline-block; background: #ddd; color: #999; height: 25px; line-height: 25px; padding: 0 10px; font-size: 14px; margin-top:5px; }
+.win-list .item-djx{ border-color:#ff6600; border-width: 2px; margin-left:-2px; margin-top:-2px; width:382px !important; height: 245px; z-index: 3; position: relative;}
+.win-list .item-djx s{ position: absolute; left: 0; top:0; width: 74px; height: 74px; overflow: hidden; background: url('../images/djx.png') no-repeat; z-index: 4; }
+.winCount{ position: absolute; right: 15px; top: -35px; font-size: 14px; color: #999; }
+.wincount b{ font-size: 16px; }
+
+.win-list .jx-time{ width: 180px; height: 75px; margin-top: 10px; background: #f60; color: #fff; text-align: center; border-radius: 2px; display: block; overflow: hidden; }
+.win-list .jx-time p{ font-size: 14px; padding: 5px 0; }
+.win-list .jx-time cite{ display: block; width: 131px; height: 36px; margin: 0 auto; font-style: normal; }
+.win-list .jx-time cite span{ display: block; float: left; text-align: center; width: 34px; line-height: 36px; color: #f60; background: #fff; border-radius: 2px; font-size: 24px;}
+.win-list .jx-time cite b{ font-weight: normal; font-size: 24px; width: 14px; display: block; float: left; line-height: 30px; height: 36px; text-align: center }
+.win-list .jx-ing{ width:140px; height:30px; margin-top: 10px; line-height:30px; background: #f60; color: #fff; text-align: center; border-radius: 2px; display: block; overflow: hidden; font-size: 16px; }

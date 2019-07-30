@@ -1,0 +1,34 @@
+﻿/*邀请*/
+.refer-box{ width: 1140px; margin: 0 auto 30px; overflow: hidden; line-height: 1.8; }
+
+.refer-box .rright{ float: right; width: 200px; border: 1px solid #E3E3E3; padding: 10px; color: #666; }
+.refer-box .rright h4{ font-size: 14px; padding-bottom: 8px; }
+.refer-box .rright dl{ padding: 10px 0; border-top:1px solid #E3E3E3; }
+.refer-box .rright dl dt{ font-weight: bold; margin-bottom: 5px; }
+
+.refer-box .rleft{ float: left; width: 860px; border: 2px solid #e54048; padding: 10px 20px; font-size: 14px; }
+.refer-box .rleft h4{ font-size: 22px; color: #e54048; border-bottom: 1px solid #EDEDED; padding-bottom: 8px; margin-bottom: 20px; font-weight: bold; }
+.refer-box .rleft ul{ }
+.refer-box .rleft ul li{ width: 420px; float: left; overflow: hidden; height: 130px; margin-bottom: 20px; color: #fff; border-radius: 10px; }
+.refer-box .rleft ul li.rli{ float: right; }
+.refer-box .rleft ul li.li01{ background:#ff6473 url('../images/refer.png') no-repeat 20px 15px; }
+.refer-box .rleft ul li.li02{ background:#ff6473 url('../images/refer.png') no-repeat 20px 15px; }
+.refer-box .rleft ul li dl{ padding: 10px 20px 10px 140px; }
+.refer-box .rleft ul li dl dt{ font-size: 18px; font-weight: bold; }
+.refer-box .rleft ul li dl dd a{ white-space: nowrap; }
+
+.refer-con{ padding-bottom: 20px; }
+.tips{ text-align: center; padding:20px 0 0; border-top: 1px solid #e3e3e3; margin-top: 10px; }
+.loginbtn{ text-align: center; padding-top:20px; }
+.loginbtn a{
+    padding:0 30px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    font-size: 24px;
+    color: #FFF;
+    font-weight: bold;
+    display: inline-block;
+    background: #66cc00;
+    border-radius: 3px;
+}

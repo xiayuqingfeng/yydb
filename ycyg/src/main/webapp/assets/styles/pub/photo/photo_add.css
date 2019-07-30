@@ -1,0 +1,182 @@
+.wrapper{width: 665px;margin: 10px auto;}
+	    /*tab*/
+		.tabhead {
+		    position: relative;
+		    z-index: 10;
+		}
+	    .tabhead span {
+		    display: inline-block;
+		    padding: 0 5px;
+		    height: 30px;
+		    border: 1px solid #ccc;
+		    background: url("/assets/vendors/ueeditor/themes/default/images/dialog-title-bg.png") repeat-x;
+		    text-align: center;
+		    line-height: 30px;
+		    cursor: pointer;*
+		    margin-right: 5px;
+		}
+		
+		.tabhead span.focus {
+		    height: 31px;
+		    border-bottom: none;
+		    background: #fff;
+		}
+		
+		.tabbody {
+		    position: relative;
+		    top: -1px;
+		    margin: 0 auto;
+		    border: 1px solid #ccc;
+		}
+		.tabbody{height:415px;}
+		.tabbody {
+		    position: relative;
+		    top: -1px;
+		    margin: 0 auto;
+		    border: 1px solid #ccc;
+		}
+		.tabbody .panel{width:100%;height: 100%;background: #fff;}
+		.tabbody .panel h1{font-size:26px;margin: 5px 0 0 5px;}
+		.tabbody .panel p{font-size:12px;margin: 5px 0 0 5px;}
+		#remote .top{
+		    width: 100%;
+		    margin-top: 10px;
+		}
+		#remote .left{
+		    display: block;
+		    float: left;
+		    width: 100%;
+		}
+
+		#remote .row{
+		    margin-left: 20px;
+		    clear: both;
+		    height: 40px;
+		}
+		.addLinkRow{
+		    margin-top: 20px;		    
+		    margin-left: 20px;
+		    clear: both;
+		    height: 30px;
+		}
+		#remote .row label,.addLinkRow label{
+		    text-align: center;
+		    width: 80px;
+		    zoom:1;
+		    _display: inline;
+		    display:inline-block;
+		    vertical-align: middle;
+		}
+		#remote .row label.algnLabel{
+		    float: left;
+		
+		}
+		
+		#remote input.text,.addLinkRow input.text{
+		    width: 150px;
+		    padding: 3px 6px;
+		    font-size: 14px;
+		    line-height: 1.42857143;
+		    color: #555;
+		    background-color: #fff;
+		    background-image: none;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+		    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+		    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		}
+		#remote input.text:focus,.addLinkRow input.text:focus{
+		    border-color: #66afe9;
+		    outline: 0;
+		    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+		    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+		}
+		#remote #url{
+		    width: 350px;
+		    margin-bottom: 2px;
+		} 
+		#remote #width,
+		#remote #height{
+		    width: 35px;
+		    margin-left: 2px;
+		    margin-right: 2px;
+		}
+		#remote #border,
+		#remote #vhSpace,
+		#remote #title{
+		    width: 180px;
+		    margin-right: 5px;
+		}
+
+		#remote #preview{
+		    clear: both;
+		    width: 620px;
+		    height: 340px;
+		    margin-left:20px;
+		    background-color: #eee;    
+		    position: relative;
+		    overflow: hidden;
+		}
+		#addPhotoBtn,.button {
+		    display: inline-block;
+		    margin-bottom: 0;
+		    margin-right: 5px;
+		    padding: 4px 10px;
+		    font-weight: 400;
+		    text-align: center;
+		    vertical-align: middle;
+		    cursor: pointer;
+		    background-image: none;
+		    border: 1px solid transparent;
+		    white-space: nowrap;
+		    font-size: 14px;
+		    border-radius: 4px;
+		    -webkit-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		    vertical-align: top;
+		}
+
+		#addPhotoBtn {
+		    color: white;
+		    border-color: #285e8e;
+		    background-color: #3b97d7;	
+		    display: none;
+		}
+		.button {
+			margin-left:5px;
+		}
+		.idrag-box {
+			width: 35px;
+			height: 35px;
+			cursor: move;
+			position: absolute;
+			top: 30px;
+			left: 30px;
+			border: 1px solid #CCCCCC;
+			background:url(/assets/images/pub/cart.png) no-repeat
+		}
+		.idrag-box.selected{			
+			border: 2px solid blue;
+		}
+		.idrag-del{
+			width:13px;
+			height:13px;
+			background:url(/assets/images/seller/close.png) no-repeat left center;
+			position:absolute;
+			right:-7px;
+			top:-7px;
+			cursor:pointer;
+		}
+		.idrag-edit{
+			width:13px;
+			height:13px;
+			background:url(/assets/images/pub/edit.png) no-repeat left center;
+			position:absolute;
+			right:-7px;
+			bottom:-7px;
+			cursor:pointer;
+		}

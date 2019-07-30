@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 支付 -->
+<mapper namespace="cn.com.yyg.front.mybatis.PayMybatisDao">
+
+	<!-- 过期未支付查询 -->
+	<select id="queryDueUnPay" resultType="java.lang.Long">
+		 select t.id from ygg_pay_record t where 1=1 and 
+		 <![CDATA[
+		  t.createTime<=DATE_ADD(NOW(),INTERVAL -${minute} DAY_MINUTE) 			
+		  ]]>
+		   and t.payStatus=${status}
+	</select>
+</mapper>

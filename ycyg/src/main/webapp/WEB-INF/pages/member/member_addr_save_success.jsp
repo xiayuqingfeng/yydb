@@ -1,0 +1,1 @@
+<%@ page language="java" pageEncoding="UTF-8"%> <%@ include file="../commons/taglibs.jsp"%>	<script type="text/javascript">parent.layer.alert("${msg}",1,function(){parent.location.href='/member/addr'});</script>

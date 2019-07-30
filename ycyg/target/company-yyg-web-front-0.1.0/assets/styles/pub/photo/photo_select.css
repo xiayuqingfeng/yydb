@@ -1,0 +1,83 @@
+.select_photo_tool{
+	float:left;
+	margin-bottom:15px;
+	padding-top:15px;
+	margin-left:30px;
+	}	
+.select_photo_tool label{
+	float:left;
+	height:28px;
+	line-height:28px;
+	}	
+.select_photo_tool input{
+	float:left;
+	width:148px;
+	height:28px;
+	border:1px solid #ddd;
+	margin-right:15px;
+	line-height: 28px;
+	}	
+.select_photo_tool select{
+	float:left;
+	height:35px;
+	padding-left:20px;
+	padding-right:20px;
+ }	
+.select_photo_tool button{
+	float:left;
+	height:30px;
+	border:none;
+	border-radius:3px;
+	padding-left:20px;
+	padding-right:20px;
+	cursor:pointer;
+	color:#fff;
+ }	
+.select_photo_content {
+	overflow:hidden;
+	width:100%
+}
+ 
+.select_photo_content  ul {
+	margin-left: 0;
+}
+
+.select_photo_content  ul li {
+	float: left;
+	width: 100px;
+	height:100px;
+	margin-left: 5px;
+	margin-right: 0px;
+	border: 1px solid #ccc;
+	padding: 0;
+	margin-bottom: 13px;
+	background-color: #EBEBEB;
+}
+ .select_photo_content  ul li img {
+	max-width: 100px;
+	max-height: 100px;
+	width: 100px;
+	_width: 99px;
+	height:100px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+.select_photo_content .hover-ul-a .img_icon {
+    display: none;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #1094fa;
+    position: absolute;
+    background-repeat: no-repeat;
+    background: url("/assets/images/pub/success.png") 60px 60px no-repeat;
+    margin-top: -100px;
+    cursor: pointer;
+}

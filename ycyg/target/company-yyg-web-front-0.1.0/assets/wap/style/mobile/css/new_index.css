@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+body{max-width: 640px; margin: 0 auto;min-width:320px;width: 100%;font-family: Microsoft Yahei,Arial,sans-serif}
+/**************banner**************/
+.new_banner{position:relative; z-index:1;clear:both; overflow:hidden;min-width:320px; width:100%;}
+.new_banner a{ overflow:hidden; display:block; width:100%; }
+.new_banner a img{ width:100%; vertical-align:top}
+
+/*slider*/
+.slick-slider{ position: relative; z-index: 1; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -ms-touch-action: none; touch-action: none; -webkit-tap-highlight-color: transparent; }
+.slick-list { position: relative; overflow: hidden; display: block;}
+.slick-list:focus { outline: none; }
+.slick-list.dragging { cursor: pointer; cursor: hand; }
+.slick-track { position: relative; left: 0; top: 0; display: block; zoom: 1; }
+.slick-track:before,.slick-track:after { content: ""; display: table; }
+.slick-track:after { clear: both; }
+.slick-loading .slick-track { visibility: hidden; }
+.slick-slide { float: left; height: 100%; min-height: 1px; display: none; }
+.slick-slide.slick-loading img { display: none; }
+.slick-slide.dragging img { pointer-events: none; }
+.slick-initialized .slick-slide { display: block; float: left }
+.slick-loading .slick-slide { visibility: hidden; }
+.slick-vertical .slick-slide { display: block; height: auto; border: 1px solid transparent; }
+.slick-slider .slick-list, .slick-track, .slick-slide, .slick-slide img { -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+
+/* dots */
+.new_banner .slick-dots { position: absolute; display: block; box-sizing:border-box; bottom:0; padding-right:10px; list-style: none;margin:0; z-index:5; height:30px; text-align: right; }
+.new_banner .slick-dots li { position: relative; display: inline-block; *display:inline; margin-right:5px; height:100%;}
+.new_banner .slick-dots li button{ display:inline-block; outline: none; line-height: 0; font-size: 0; border: 0; color: transparent; padding: 0; cursor: pointer; outline: none;width:10px; height:10px; background:#fff;vertical-align:top;margin-top: 10px;}
+.new_banner .slick-dots li.slick-active button {background: #e54048;}
+/**************nav**************/
+.new-nav{background: #fff;  text-align: center;font-size: 12px; clear: both; overflow: hidden; margin-bottom: 0;}
+.new-nav li{ float: left; width: 25%; overflow: hidden; padding: 10px; display: inline-block; padding-bottom: 0;}
+.new-nav li a{ color: #333; }
+.new-nav li em{ background: #e54048; margin: 0 auto; width:40px; height:40px; border-radius:50%; display: block; overflow: hidden;color:#fff; margin-bottom:5px;}
+.new-nav li em i.iconfont{font-size:25px; line-height:36px; display: inline-block;-webkit-text-stroke-width:0}
+/**************index**************/
+.new-index{ border-top:1px solid #dfdfdf; background: #fff;}
+.new-index-top{ padding:5px 10px; clear: both; overflow: hidden; line-height: 2;font-size: 16px; border-bottom: 2px solid #e54048;}
+.new-index-top a{ display: block; background: url(../images/new_inde.png) no-repeat right center; background-size: auto 60% !important; }
+.new-index-1{ clear: both; overflow: hidden; height: 170px;}
+.new-index-1 li{float: left;width: 50%; border: solid #dfdfdf; border-width: 0 1px 1px 0; overflow: hidden;padding:10px; font-size: 12px; height:85px;}
+.new-index-1 li.new-odd{border-right: 0;}
+.new-index-1 li em{float: right; width:40%;overflow: hidden;margin:8px 0 8px 5px; display: inline-block;}
+.new-index-1 li em a{ display: block;}
+.new-index-1 li em a img{max-width: 100%;height:auto;}
+.new-index-2{ overflow: hidden; line-height: 1.8;}
+.new-index-2 a{ color: #333; }
+.new-index-2 span{height:3.6em; overflow: hidden; display:block; clear: both;}
+.new-index-2 p{ display: block; clear: both; overflow: hidden; height:1.8em;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;margin-bottom: 0;}
+.new-index-2 p a{ color: #0084FF;}
+.new-inex1{ border-top:1px solid #dfdfdf; margin-top: 10px;background: #fff;}
+.new-index1-top{ clear: both; overflow: hidden; line-height:44px; text-align: center;border-bottom: 1px solid #dfdfdf;}
+.new-index1-top li{float: left; width: 20%; display: inline-block; overflow: hidden;}
+.new-index1-top li i{ margin-left: 2%;}
+.new-index1-top li.hover{ color: #e54048;}
+.new-index2{clear: both; overflow:hidden}
+.new-index2 .new-box{float:left;width: 50%; border: solid #dfdfdf; border-width: 0 1px 1px 1px; overflow: hidden; padding:0 10px 10px;font-size: 12px;}
+.new-index2 .new-box.new-nr{ border-left: 0;}
+.new-index2 .new-box em{ display: block; overflow: hidden;height: 138px; margin-bottom: 5px; text-align: center; margin: 0 auto; width: 138px;}
+.new-index2 .new-box em a{ display: table-cell; height: 138px; text-align:center;vertical-align: middle; width: 138px;}
+.new-index2 .new-box em img{max-width:138px;max-height: 138px;}
+.new-index2 .new-box h5{ overflow: hidden;font-size: 12px; line-height: 1.8; height: 1.8em; clear: both; margin-bottom: 5px !important; margin-top:5px;}
+.new-index2 .new-box h5 span{ color: #e54048;float: left; display:inline-block; overflow: hidden;margin-right: 5px;}
+.new-index2 .new-box h5 p{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.new-index2-1{ clear: both; overflow: hidden; padding:0;font-size: 12px;}
+.new-index2-1 p{height: 10px;overflow: hidden;clear: both;background: #fff;border: 1px solid #e54048;border-radius: 5px; margin-bottom: 5px !important;}
+.new-index2-1 p span{display: block;clear: both;overflow: hidden;height: 8px;background: #e54048;border-radius: 5px;position: relative;}
+.new-index2-1 dl{clear: both;overflow: hidden;padding: 5px 0 8px;line-height: 18px; margin-bottom: 0;}
+.new-index2-1 dl dt{ float:left; display:inline-block; overflow:hidden; width:33.333%}
+.new-index2-1 dl dd{ float:left; overflow:hidden; display:inline-block; width:33.333%}
+.new-index_zx{text-align:center;}
+.new-index_zx1{ text-align:right;}
+.new-index2-1 dl span{ display:block; height:18px; overflow:hidden; color:#000}
+.new-index2-1 dl i{ display:block; font-style:normal; color:#999; height:18px}
+.new-index2-1 .new-index-one{ clear:both; overflow:hidden;text-align:center; margin:0 auto; width:99px}
+.new-index2-1 .new-index-one a{ background:#e54048; display:inline-block; overflow:hidden; padding:0 10px;color:#fff; font-size:12px;line-height: 2.4;height: 2.4em;float:left}
+.new-index2-1 .new-index-one a.new-index-two{ background:url(../images/new_index_car.png) no-repeat center #ffa200;border-left: 1px solid #fff;width:30px;}
+
+.transitions-enabled.infinite-scroll{-webkit-transition-property:none;-moz-transition-property:none;-o-transition-property:none;transition-property:none;}
+#infscr-loading{text-align:center;padding:10px;background:#000;opacity:0.8;filter:alpha(opacity=80);color:#FFF;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
+#infscr-loading{position:fixed;bottom:52px;z-index:9999;width:150px;left: 50%;margin-left: -75px;}
+
+#infscr-loading img{ height: 30px;}
+@media only screen and (min-width:480px) {
+/**************banner**************/
+.new_banner .slick-dots { height:40px;}
+.new_banner .slick-dots li {margin: 0 10px 0 5px}
+.new_banner .slick-dots li button{width:16px; height:16px;margin-top: 12px;}
+/**************nav**************/
+.new-nav{font-size: 14px;}
+.new-nav li em{width:50px; height:50px; }
+.new-nav li em i.iconfont{font-size:32px; line-height:46px; }
+/**************index**************/
+.new-index,.new-inex1{ margin-top:3px}
+.new-index-top{ font-size:20px;}
+.new-index-1{ clear: both; overflow: hidden;}
+.new-index-1 li{padding:10px 15px; font-size: 14px;}
+.new-index1-top{line-height:55px; font-size: 16px;}
+.new-index1-top i.iconfont{font-size: 22px;}
+.new-index2 .new-box{padding:20px;font-size: 14px;}
+.new-index2 .new-box em,.new-index2 .new-box em a{height: 198px;width: 198px;}
+.new-index2 .new-box em img{max-width:198px;max-height: 198px;}
+.new-index2 .new-box h5{ font-size: 14px;}
+.new-index2-1 .new-index-one{width:121px; padding-top: 5px;}
+.new-index2-1 .new-index-one a{font-size: 16px;}
+.new-index2-1 .new-index-one a.new-index-two{width:37px;}
+#infscr-loading{bottom:82px;}
+}
+@media only screen and (min-width:640px) {
+
+.new-index2 .new-box em,.new-index2 .new-box em a{height:278px;width: 278px;}
+.new-index2 .new-box em img{max-width:278px;max-height: 278px;}
+}
+
+/*微信关注层*/
+.subscribe{ position: fixed; left: 0; top: 0; width: 100%; height: auto; background-color:rgba(0,0,0,0.6); z-index: 100; color: #fff; }
+.subscribe dt{ height: 48px; position: relative; font-weight: normal;; }
+.subscribe dt button{ display: block; position: absolute; float: right; right: 10px; top: 10px; height: 28px; line-height: 28px; padding: 0 10px; background: #03bd02; border:0; border-radius: 5px; color: #fff; }
+.subscribe dt p{ padding: 7px 15px 0; line-height: 18px; font-size: 13px; }
+.subscribe dt p span{ color: #26c841; }
+.subscribe dd{ text-align: center; padding: 40px 0 0; display: none; }
+.subscribe dd .p1{ padding: 0 0 5px; }
+.subscribe dd .p1 img{ max-width: 90%; }
+.subscribe dd .p2{ color: #cd451a; padding: 0; margin: 0; }
+.subscribe dd .p3{ color: #9b9b9b; padding: 0; margin: 0; }
+.subscribe_toggle{ background: #fff; color: #000; height: 100%; }
+.subscribe_toggle dd{ display: block; }

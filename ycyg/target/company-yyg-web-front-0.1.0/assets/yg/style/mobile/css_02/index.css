@@ -1,0 +1,74 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,  caption,  article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;outline: none;}
+body {max-width: 640px;margin: 0 auto; min-width: 320px;width: 100%;font-family: Microsoft Yahei,Arial,sans-serif; background: #EEE;}
+table,tbody, tfoot, thead, tr, th, td{margin: 0;padding: 0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol,ul,li{list-style-image:none;list-style-position:outside;list-style-type:none;}
+input{ padding:0; margin:0; font-family:"微软雅黑"; outline:none}
+
+a{color: #333;}
+/**********************banner**********************/
+.new_banner{ text-align: center;}
+.new_banner .slick-dots{width: 100%; text-align: center;padding: 0;bottom: 10px;}
+.new_banner .slick-dots li button{border-radius: 50%; background: rgba(255,255,255,.4);}
+
+.menu{clear: both;overflow: hidden;background: #fff;padding: 10px 0;}
+.menu .slider a{display: block;overflow: hidden; text-align: center;padding: 0 10px;}
+.menu .slider a img{width:85%;max-width: 60px;}
+.menu .slider p{margin: 7px 0 0;}
+/* dots */
+.menu .slick-dots { display: block;margin:0;clear: both;overflow: hidden;padding: 5px 0; text-align: center;position: static}
+.menu .slick-dots li { position: relative; display: inline-block; *display:inline; margin:0 5px 0 0; height:100%; width: auto;}
+.menu .slick-dots li button{ display:inline-block; outline: none; line-height: 0; font-size: 0; border: 0; color: transparent; padding: 0; cursor: pointer; outline: none;width:10px; height:10px; background:#ebebeb;border-radius: 50%;}
+.menu .slick-dots li.slick-active button {background: #e54048;}
+.new-index{border: 0;margin-top: 10px;}
+.new-index-top{border-bottom: 1px solid #dcdcdc;}
+.new-index-top a{color: #6f6f6f;}
+.new-foot{padding: 0; background: #fff;border-top: 1px solid #dfdfdf;}
+.new-foot li a{color: #818181;}
+.new-foot li a:hover, .new-foot li a.hover{color: #e54048;}
+.new-foot li a span{background: #e54048; color: #fff;}
+@media only screen and (min-width:480px) {
+.menu{padding: 20px 0;}
+}
+.new-inex1{margin-bottom: 10px;}
+.new-index-3{overflow: hidden;}
+.new-index-3 a{color: #333;}
+.new-index-1 li .new-index-3 em{margin:5px 0 0;font-style: normal;display: block;float: none;width: 100%;color: #e54048;line-height: 2;}
+.new-index-1 li .new-index-3 em span{background: #e54048;border-radius: 3px;padding: 0 4px;display: inline-block;color: #fff;float: left;overflow: hidden;}
+.new-index-1 li .new-index-3 em b{float: left;display: inline-block;padding: 0 3px;}
+.new-index2 .new-box:nth-child(2n){border-left:0}
+.new-index2 .new-box h5 a{display: block;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.new-box1{clear: both;overflow: hidden;}
+.new-box1 dt{float: right;margin-left:10px; display: inline-block;line-height: 1.5;}
+.new-box1 dt i.iconfont{font-size:2.5em;color: #e54048;-webkit-text-stroke-width: 0;font-weight: lighter;}
+.new-box1 dd{overflow: hidden;}
+.new-box1-1{clear: both;overflow: hidden;color: #616161;}
+.new-box1-2{border-radius: 7px; height: 7px;width: 100%;margin-top: 8px;overflow: hidden;background: #eee;}
+.new-box1-2 span{display: block;height: 100%;background: #e54048;border-radius: 7px;}
+.new-fixed .new-index1-top{position: fixed;top: 0; background:#f3f3f3;border-bottom: 1px solid #dcdcdc;width: 100%;}
+.new-inex1.new-fixed{padding-top: 45px;}
+
+.bodyright{position: fixed;z-index: 5;right: 5px;bottom:15%;display: none;}
+.bodyright a,.bodyright span{display: block;width:3em; height: 3em; line-height: 3;text-transform: uppercase;color: #fff;text-align: center;overflow: hidden;margin-top: 2px;}
+.bodyright span{background: rgba(0,0,0,.7); }
+.bodyright a{background:#e54048; }
+@media only screen and (min-width:480px) {
+.new-index, .new-inex1 {margin-top: 20px;}
+.new-inex1.new-fixed{padding-top:56px;}
+.bodyright a,.bodyright span{font-size: 1.2em;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

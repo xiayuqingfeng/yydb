@@ -1,0 +1,15 @@
+<script src="../jquery.min.js"></script>
+<script type="text/javascript" src="jquery.qrcode.min.js"></script>
+<div id="test">
+
+</div>
+<script>
+
+var str = "http://www.hang315.com";
+	$("#test").qrcode({
+		render: "table",
+		width: 200,
+		height:200,
+		text: str
+	});;
+</script>

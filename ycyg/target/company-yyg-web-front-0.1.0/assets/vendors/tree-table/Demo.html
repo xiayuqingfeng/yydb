@@ -1,0 +1,2261 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<TITLE>demo</TITLE>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.treetable.js"></script>
+<link href="http://localhost:90/assets/vendors/bootstrap-3.2.0/css/bootstrap.min.css?v=4" rel="stylesheet">
+<script LANGUAGE="JavaScript">
+	$(document).ready(function() {
+
+		$.treetable.defaults = {
+			id_col : 0,//ID td列 {从0开始}
+			parent_col : 1,//父ID td列
+			handle_col : 2,//加上操作，展开操作的 td列
+			open_img : "images/minus.gif",
+			close_img : "images/plus.gif"
+		}
+
+		//$("#tb").treetable({id_col:0,parent_col:1,handle_col:2,open_img:"images/minus.gif",close_img:"images/plus.gif"});
+
+		//只能应用于tbody
+		$("#tb").treetable();
+
+		//应用样式
+		$("#tb tr:even td").addClass("alt");
+		$("#tb tr").find("td:eq(2)").addClass("spec");
+		$("#tb tr:even").find("td:eq(2)").removeClass().addClass("specalt");
+
+		//隐藏数据列
+		$("#tb tr").find("td:eq(0)").hide();
+		$("#tb tr").find("td:eq(1)").hide();
+		$("#mytable tr:eq(0)").find("th:eq(0)").hide();
+		$("#mytable tr:eq(0)").find("th:eq(1)").hide();
+	});
+</script>
+</HEAD>
+
+<BODY>
+	<div style="float: left;">
+		<table class="table table-striped table-bordered table-hover table-full-width" id="mytable" data-toolbar="#toolbar">
+			<thead>
+				<tr>
+					<th style="text-align: center; vertical-align: middle;" data-field="id" tabindex="0">
+						<div class="th-inner ">#id</div>
+						<div class="fht-cell"></div>
+					</th>
+					<th style="text-align: center; vertical-align: middle;" data-field="parentId" tabindex="0">
+						<div class="th-inner ">#parentId</div>
+						<div class="fht-cell"></div>
+					</th>
+					<th style="text-align: center; vertical-align: middle;" data-field="className" tabindex="0">
+						<div class="th-inner sortable both">分类名称</div>
+						<div class="fht-cell"></div>
+					</th>
+					<th style="text-align: center; vertical-align: middle;" data-field="seqNo" tabindex="0">
+						<div class="th-inner ">分类排序</div>
+						<div class="fht-cell"></div>
+					</th>
+					<th style="text-align: center; vertical-align: middle;" data-field="display" tabindex="0">
+						<div class="th-inner sortable both">是否显示</div>
+						<div class="fht-cell"></div>
+					</th>
+					<th style="text-align: center; vertical-align: middle;" data-field="recommend" tabindex="0">
+						<div class="th-inner ">是否推荐</div>
+						<div class="fht-cell"></div>
+					</th>
+					<th style="text-align: center; vertical-align: middle;" data-field="iconSys" tabindex="0">
+						<div class="th-inner ">图标class</div>
+						<div class="fht-cell"></div>
+					</th>
+					<th style="text-align: center; vertical-align: middle;" data-field="option" tabindex="0">
+						<div class="th-inner ">操作</div>
+						<div class="fht-cell"></div>
+					</th>
+				</tr>
+			</thead>
+			<tbody id="tb">
+				<tr data-index="0">
+					<td style="text-align: center; vertical-align: middle;">65620</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">建材</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="1">
+					<td style="text-align: center; vertical-align: middle;">65621</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">家具</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="2">
+					<td style="text-align: center; vertical-align: middle;">65622</td>
+					<td style="text-align: center; vertical-align: middle;">65620</td>
+					<td style="text-align: center; vertical-align: middle;">灯饰照明</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="3">
+					<td style="text-align: center; vertical-align: middle;">65632</td>
+					<td style="text-align: center; vertical-align: middle;">65620</td>
+					<td style="text-align: center; vertical-align: middle;">卫浴用品</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="4">
+					<td style="text-align: center; vertical-align: middle;">65633</td>
+					<td style="text-align: center; vertical-align: middle;">65620</td>
+					<td style="text-align: center; vertical-align: middle;">建材五金</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="5">
+					<td style="text-align: center; vertical-align: middle;">65634</td>
+					<td style="text-align: center; vertical-align: middle;">65620</td>
+					<td style="text-align: center; vertical-align: middle;">墙地面</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="6">
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">65620</td>
+					<td style="text-align: center; vertical-align: middle;">家用电器</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="7">
+					<td style="text-align: center; vertical-align: middle;">65637</td>
+					<td style="text-align: center; vertical-align: middle;">65621</td>
+					<td style="text-align: center; vertical-align: middle;">家纺</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="8">
+					<td style="text-align: center; vertical-align: middle;">65638</td>
+					<td style="text-align: center; vertical-align: middle;">65621</td>
+					<td style="text-align: center; vertical-align: middle;">软饰</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="9">
+					<td style="text-align: center; vertical-align: middle;">65639</td>
+					<td style="text-align: center; vertical-align: middle;">65621</td>
+					<td style="text-align: center; vertical-align: middle;">客厅</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="10">
+					<td style="text-align: center; vertical-align: middle;">65640</td>
+					<td style="text-align: center; vertical-align: middle;">65621</td>
+					<td style="text-align: center; vertical-align: middle;">卧室</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="11">
+					<td style="text-align: center; vertical-align: middle;">65641</td>
+					<td style="text-align: center; vertical-align: middle;">65621</td>
+					<td style="text-align: center; vertical-align: middle;">餐厅</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="12">
+					<td style="text-align: center; vertical-align: middle;">65642</td>
+					<td style="text-align: center; vertical-align: middle;">65621</td>
+					<td style="text-align: center; vertical-align: middle;">书房</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="13">
+					<td style="text-align: center; vertical-align: middle;">65643</td>
+					<td style="text-align: center; vertical-align: middle;">65621</td>
+					<td style="text-align: center; vertical-align: middle;">童房</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="14">
+					<td style="text-align: center; vertical-align: middle;">65648</td>
+					<td style="text-align: center; vertical-align: middle;">65622</td>
+					<td style="text-align: center; vertical-align: middle;">吸顶灯</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="15">
+					<td style="text-align: center; vertical-align: middle;">65649</td>
+					<td style="text-align: center; vertical-align: middle;">65622</td>
+					<td style="text-align: center; vertical-align: middle;">筒灯</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="16">
+					<td style="text-align: center; vertical-align: middle;">65650</td>
+					<td style="text-align: center; vertical-align: middle;">65622</td>
+					<td style="text-align: center; vertical-align: middle;">射灯</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="17">
+					<td style="text-align: center; vertical-align: middle;">65651</td>
+					<td style="text-align: center; vertical-align: middle;">65622</td>
+					<td style="text-align: center; vertical-align: middle;">吊灯</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="18">
+					<td style="text-align: center; vertical-align: middle;">65652</td>
+					<td style="text-align: center; vertical-align: middle;">65622</td>
+					<td style="text-align: center; vertical-align: middle;">落地灯</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="19">
+					<td style="text-align: center; vertical-align: middle;">65653</td>
+					<td style="text-align: center; vertical-align: middle;">65622</td>
+					<td style="text-align: center; vertical-align: middle;">壁灯</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="20">
+					<td style="text-align: center; vertical-align: middle;">65654</td>
+					<td style="text-align: center; vertical-align: middle;">65622</td>
+					<td style="text-align: center; vertical-align: middle;">台灯</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="21">
+					<td style="text-align: center; vertical-align: middle;">65655</td>
+					<td style="text-align: center; vertical-align: middle;">65620</td>
+					<td style="text-align: center; vertical-align: middle;">厨房用品</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="22">
+					<td style="text-align: center; vertical-align: middle;">65656</td>
+					<td style="text-align: center; vertical-align: middle;">65632</td>
+					<td style="text-align: center; vertical-align: middle;">智能坐便器</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="23">
+					<td style="text-align: center; vertical-align: middle;">65657</td>
+					<td style="text-align: center; vertical-align: middle;">65632</td>
+					<td style="text-align: center; vertical-align: middle;">坐便器盖板</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="24">
+					<td style="text-align: center; vertical-align: middle;">65658</td>
+					<td style="text-align: center; vertical-align: middle;">65632</td>
+					<td style="text-align: center; vertical-align: middle;">淋浴花洒</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="25">
+					<td style="text-align: center; vertical-align: middle;">65659</td>
+					<td style="text-align: center; vertical-align: middle;">65632</td>
+					<td style="text-align: center; vertical-align: middle;">卫浴龙头</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="26">
+					<td style="text-align: center; vertical-align: middle;">65660</td>
+					<td style="text-align: center; vertical-align: middle;">65632</td>
+					<td style="text-align: center; vertical-align: middle;">浴室柜</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="27">
+					<td style="text-align: center; vertical-align: middle;">65661</td>
+					<td style="text-align: center; vertical-align: middle;">65632</td>
+					<td style="text-align: center; vertical-align: middle;">地漏</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="28">
+					<td style="text-align: center; vertical-align: middle;">65662</td>
+					<td style="text-align: center; vertical-align: middle;">65632</td>
+					<td style="text-align: center; vertical-align: middle;">角阀</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="29">
+					<td style="text-align: center; vertical-align: middle;">65663</td>
+					<td style="text-align: center; vertical-align: middle;">65633</td>
+					<td style="text-align: center; vertical-align: middle;">开关插座</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="30">
+					<td style="text-align: center; vertical-align: middle;">65664</td>
+					<td style="text-align: center; vertical-align: middle;">65633</td>
+					<td style="text-align: center; vertical-align: middle;">断路器</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="31">
+					<td style="text-align: center; vertical-align: middle;">65665</td>
+					<td style="text-align: center; vertical-align: middle;">65633</td>
+					<td style="text-align: center; vertical-align: middle;">接线板</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="32">
+					<td style="text-align: center; vertical-align: middle;">65666</td>
+					<td style="text-align: center; vertical-align: middle;">65633</td>
+					<td style="text-align: center; vertical-align: middle;">五金</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="33">
+					<td style="text-align: center; vertical-align: middle;">65667</td>
+					<td style="text-align: center; vertical-align: middle;">65633</td>
+					<td style="text-align: center; vertical-align: middle;">锁具</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="34">
+					<td style="text-align: center; vertical-align: middle;">65668</td>
+					<td style="text-align: center; vertical-align: middle;">65634</td>
+					<td style="text-align: center; vertical-align: middle;">墙纸</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="35">
+					<td style="text-align: center; vertical-align: middle;">65669</td>
+					<td style="text-align: center; vertical-align: middle;">65634</td>
+					<td style="text-align: center; vertical-align: middle;">地板</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="36">
+					<td style="text-align: center; vertical-align: middle;">65670</td>
+					<td style="text-align: center; vertical-align: middle;">65634</td>
+					<td style="text-align: center; vertical-align: middle;">涂料</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="37">
+					<td style="text-align: center; vertical-align: middle;">65671</td>
+					<td style="text-align: center; vertical-align: middle;">65634</td>
+					<td style="text-align: center; vertical-align: middle;">瓷砖</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="38">
+					<td style="text-align: center; vertical-align: middle;">65672</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">油烟机</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="39">
+					<td style="text-align: center; vertical-align: middle;">65673</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">燃气灶</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="40">
+					<td style="text-align: center; vertical-align: middle;">65674</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">消毒柜</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="41">
+					<td style="text-align: center; vertical-align: middle;">65675</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">电压力锅</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="42">
+					<td style="text-align: center; vertical-align: middle;">65676</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">电饭煲</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="43">
+					<td style="text-align: center; vertical-align: middle;">65677</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">豆浆机</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="44">
+					<td style="text-align: center; vertical-align: middle;">65678</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">榨汁机/原汁机</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="45">
+					<td style="text-align: center; vertical-align: middle;">65679</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">料理机</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="46">
+					<td style="text-align: center; vertical-align: middle;">65680</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">电磁炉</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="47">
+					<td style="text-align: center; vertical-align: middle;">65681</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">电热水壶</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="48">
+					<td style="text-align: center; vertical-align: middle;">65682</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">养生壶</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="49">
+					<td style="text-align: center; vertical-align: middle;">65683</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">电陶炉</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="50">
+					<td style="text-align: center; vertical-align: middle;">65684</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">面包机</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="51">
+					<td style="text-align: center; vertical-align: middle;">65685</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">空气净化器</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="52">
+					<td style="text-align: center; vertical-align: middle;">65686</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">扫地机器人</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="53">
+					<td style="text-align: center; vertical-align: middle;">65687</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">净水器</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="54">
+					<td style="text-align: center; vertical-align: middle;">65688</td>
+					<td style="text-align: center; vertical-align: middle;">65655</td>
+					<td style="text-align: center; vertical-align: middle;">厨盆/水槽</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="55">
+					<td style="text-align: center; vertical-align: middle;">65689</td>
+					<td style="text-align: center; vertical-align: middle;">65655</td>
+					<td style="text-align: center; vertical-align: middle;">龙头</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="56">
+					<td style="text-align: center; vertical-align: middle;">65690</td>
+					<td style="text-align: center; vertical-align: middle;">65655</td>
+					<td style="text-align: center; vertical-align: middle;">厨房挂件</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="57">
+					<td style="text-align: center; vertical-align: middle;">65691</td>
+					<td style="text-align: center; vertical-align: middle;">65655</td>
+					<td style="text-align: center; vertical-align: middle;">橱柜</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="58">
+					<td style="text-align: center; vertical-align: middle;">65692</td>
+					<td style="text-align: center; vertical-align: middle;">65637</td>
+					<td style="text-align: center; vertical-align: middle;">床品套件</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="59">
+					<td style="text-align: center; vertical-align: middle;">65693</td>
+					<td style="text-align: center; vertical-align: middle;">65637</td>
+					<td style="text-align: center; vertical-align: middle;">保健枕/颈椎枕</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="60">
+					<td style="text-align: center; vertical-align: middle;">65694</td>
+					<td style="text-align: center; vertical-align: middle;">65637</td>
+					<td style="text-align: center; vertical-align: middle;">毛巾/浴巾</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="61">
+					<td style="text-align: center; vertical-align: middle;">65695</td>
+					<td style="text-align: center; vertical-align: middle;">65637</td>
+					<td style="text-align: center; vertical-align: middle;">枕头/抱枕</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="62">
+					<td style="text-align: center; vertical-align: middle;">65696</td>
+					<td style="text-align: center; vertical-align: middle;">65637</td>
+					<td style="text-align: center; vertical-align: middle;">被子</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="63">
+					<td style="text-align: center; vertical-align: middle;">65697</td>
+					<td style="text-align: center; vertical-align: middle;">65638</td>
+					<td style="text-align: center; vertical-align: middle;">储物罐</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="64">
+					<td style="text-align: center; vertical-align: middle;">65698</td>
+					<td style="text-align: center; vertical-align: middle;">65638</td>
+					<td style="text-align: center; vertical-align: middle;">摆件</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="65">
+					<td style="text-align: center; vertical-align: middle;">65699</td>
+					<td style="text-align: center; vertical-align: middle;">65638</td>
+					<td style="text-align: center; vertical-align: middle;">花瓶</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="66">
+					<td style="text-align: center; vertical-align: middle;">65700</td>
+					<td style="text-align: center; vertical-align: middle;">65638</td>
+					<td style="text-align: center; vertical-align: middle;">杯子</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="67">
+					<td style="text-align: center; vertical-align: middle;">65701</td>
+					<td style="text-align: center; vertical-align: middle;">65638</td>
+					<td style="text-align: center; vertical-align: middle;">窗帘/窗纱</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="68">
+					<td style="text-align: center; vertical-align: middle;">65702</td>
+					<td style="text-align: center; vertical-align: middle;">65639</td>
+					<td style="text-align: center; vertical-align: middle;">沙发</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="69">
+					<td style="text-align: center; vertical-align: middle;">65703</td>
+					<td style="text-align: center; vertical-align: middle;">65639</td>
+					<td style="text-align: center; vertical-align: middle;">电视柜</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="70">
+					<td style="text-align: center; vertical-align: middle;">65704</td>
+					<td style="text-align: center; vertical-align: middle;">65639</td>
+					<td style="text-align: center; vertical-align: middle;">鞋柜</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="71">
+					<td style="text-align: center; vertical-align: middle;">65705</td>
+					<td style="text-align: center; vertical-align: middle;">65639</td>
+					<td style="text-align: center; vertical-align: middle;">茶几</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="72">
+					<td style="text-align: center; vertical-align: middle;">65706</td>
+					<td style="text-align: center; vertical-align: middle;">65639</td>
+					<td style="text-align: center; vertical-align: middle;">边几</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="73">
+					<td style="text-align: center; vertical-align: middle;">65708</td>
+					<td style="text-align: center; vertical-align: middle;">65639</td>
+					<td style="text-align: center; vertical-align: middle;">玄关柜</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="74">
+					<td style="text-align: center; vertical-align: middle;">65709</td>
+					<td style="text-align: center; vertical-align: middle;">65639</td>
+					<td style="text-align: center; vertical-align: middle;">斗柜</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="75">
+					<td style="text-align: center; vertical-align: middle;">65710</td>
+					<td style="text-align: center; vertical-align: middle;">65639</td>
+					<td style="text-align: center; vertical-align: middle;">花几/花架</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="76">
+					<td style="text-align: center; vertical-align: middle;">65711</td>
+					<td style="text-align: center; vertical-align: middle;">65640</td>
+					<td style="text-align: center; vertical-align: middle;">床</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="77">
+					<td style="text-align: center; vertical-align: middle;">65712</td>
+					<td style="text-align: center; vertical-align: middle;">65640</td>
+					<td style="text-align: center; vertical-align: middle;">床垫</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="78">
+					<td style="text-align: center; vertical-align: middle;">65713</td>
+					<td style="text-align: center; vertical-align: middle;">65640</td>
+					<td style="text-align: center; vertical-align: middle;">衣柜</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="79">
+					<td style="text-align: center; vertical-align: middle;">65714</td>
+					<td style="text-align: center; vertical-align: middle;">65640</td>
+					<td style="text-align: center; vertical-align: middle;">床头柜</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="80">
+					<td style="text-align: center; vertical-align: middle;">65715</td>
+					<td style="text-align: center; vertical-align: middle;">65640</td>
+					<td style="text-align: center; vertical-align: middle;">衣帽架</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="81">
+					<td style="text-align: center; vertical-align: middle;">65716</td>
+					<td style="text-align: center; vertical-align: middle;">65640</td>
+					<td style="text-align: center; vertical-align: middle;">梳妆台</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="82">
+					<td style="text-align: center; vertical-align: middle;">65717</td>
+					<td style="text-align: center; vertical-align: middle;">65640</td>
+					<td style="text-align: center; vertical-align: middle;">卧室家具套装</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="83">
+					<td style="text-align: center; vertical-align: middle;">65718</td>
+					<td style="text-align: center; vertical-align: middle;">65640</td>
+					<td style="text-align: center; vertical-align: middle;">穿衣镜</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="84">
+					<td style="text-align: center; vertical-align: middle;">65719</td>
+					<td style="text-align: center; vertical-align: middle;">65641</td>
+					<td style="text-align: center; vertical-align: middle;">餐桌</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="85">
+					<td style="text-align: center; vertical-align: middle;">65720</td>
+					<td style="text-align: center; vertical-align: middle;">65641</td>
+					<td style="text-align: center; vertical-align: middle;">餐椅</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="86">
+					<td style="text-align: center; vertical-align: middle;">65721</td>
+					<td style="text-align: center; vertical-align: middle;">65641</td>
+					<td style="text-align: center; vertical-align: middle;">餐边柜</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="87">
+					<td style="text-align: center; vertical-align: middle;">65722</td>
+					<td style="text-align: center; vertical-align: middle;">65641</td>
+					<td style="text-align: center; vertical-align: middle;">酒柜</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="88">
+					<td style="text-align: center; vertical-align: middle;">65726</td>
+					<td style="text-align: center; vertical-align: middle;">65622</td>
+					<td style="text-align: center; vertical-align: middle;">灯带</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="89">
+					<td style="text-align: center; vertical-align: middle;">65729</td>
+					<td style="text-align: center; vertical-align: middle;">65622</td>
+					<td style="text-align: center; vertical-align: middle;">LED灯泡</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="90">
+					<td style="text-align: center; vertical-align: middle;">65732</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">平板电视</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="90">
+					<td style="text-align: center; vertical-align: middle;">65732</td>
+					<td style="text-align: center; vertical-align: middle;">65635</td>
+					<td style="text-align: center; vertical-align: middle;">平板电视</td>
+					<td style="text-align: center; vertical-align: middle;">0</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+				<tr data-index="91">
+					<td style="text-align: center; vertical-align: middle;">65619</td>
+					<td style="text-align: center; vertical-align: middle;">65619</td>
+					<td style="text-align: center; vertical-align: middle;">汽车零配</td>
+					<td style="text-align: center; vertical-align: middle;">3</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;">是</td>
+					<td style="text-align: center; vertical-align: middle;"></td>
+					<td style="text-align: center; vertical-align: middle;">
+						<button type="button" class="btn btn-danger btn-xs pf-delete-cate-btn">
+							<i class="glyphicon glyphicon-trash"></i>
+							删除
+						</button>
+						&nbsp;
+						<button type="button" class="btn btn-success btn-xs pf-update-cate-btn">
+							<i class="glyphicon glyphicon-pencil"></i>
+							修改
+						</button>
+						&nbsp;
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table id="mytable1" cellspacing="0" cellpadding="0">
+			<caption>Table 1: 树形列表示例</caption>
+			<thead>
+				<tr>
+					<th>区域编号</th>
+					<th>上级区域</th>
+					<th class="nobg">区域名称</th>
+					<th>区域级别</th>
+					<th>是否启用</th>
+					<th>备注</th>
+				</tr>
+			</thead>
+			<tbody id="tbb">
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>行1</td>
+					<td>1111</td>
+					<td>212312</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>9</td>
+					<td>行2</td>
+					<td>1111</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td></td>
+					<td>行3</td>
+					<td>12131</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>1</td>
+					<td>行4</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td></td>
+					<td>行5</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>4</td>
+					<td>行6</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1243</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>5</td>
+					<td>行7</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1243</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>3</td>
+					<td>行8</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>4</td>
+					<td>行9</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>6</td>
+					<td>行10</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>3</td>
+					<td>行11</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td>7</td>
+					<td>行12</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+	<div style="float: left; margin: 0 0 0 10px;">
+		<table cellspacing="0" cellpadding="0">
+			<caption>Table 2: 原始列表示例</caption>
+			<tr>
+				<th>区域编号</th>
+				<th>上级区域</th>
+				<th class="nobg">区域名称</th>
+				<th>区域级别</th>
+				<th>是否启用</th>
+				<th>备注</th>
+			</tr>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>行1</td>
+					<td>1111</td>
+					<td>212312</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>9</td>
+					<td>行2</td>
+					<td>1111</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td></td>
+					<td>行3</td>
+					<td>12131</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>1</td>
+					<td>行4</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td></td>
+					<td>行5</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>4</td>
+					<td>行6</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1243</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>5</td>
+					<td>行7</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1243</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>3</td>
+					<td>行8</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>4</td>
+					<td>行9</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>6</td>
+					<td>行10</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>3</td>
+					<td>行11</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td>7</td>
+					<td>行12</td>
+					<td>1123</td>
+					<td>2234</td>
+					<td>1234</td>
+				</tr>
+			</tbody>
+		</table>
+		<div>
+</BODY>
+</HTML>

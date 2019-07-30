@@ -1,0 +1,44 @@
+/* 大转盘 */
+body{background-color:#f8f8f8}
+.toast{z-index:9999;position: fixed;top: 50%;left: 50%;width: 200px;margin-left: -100px;border: 1px solid #000;border-radius: 8px;background-color: rgba(0, 0, 0, 0.9);padding: 10px 0;text-align: center;color: #fff;opacity: .8;-webkit-transition: opacity 0.5s ease-out;-moz-transition: opacity 0.5s ease-out;-ms-transition: opacity 0.5s ease-out;-o-transition: opacity 0.5s ease-out;transition: opacity 0.5s ease-out;}
+.am-modal-btn {color: #E81010;}
+.am-modal-hd {padding: 15px 10px 5px 10px;font-size: 1.8rem;font-weight: 500;border-bottom: 1px solid #DA7272;margin: 0 20px;margin-bottom: 10px;color: rgb(190, 5, 5);}
+.am-modal-hd.no{border-bottom: 0px solid #ffffff; margin-bottom: 0px;}
+.hl-navbar .hl-navbar-nav{padding-right:0;padding-left: 0;background-color:#1A1919}
+.hl-navbar .hl-navbar-nav li a{color: #f7f7f7}
+.my-prize{top: 40%;}
+.my-prize .am-modal-bd {  overflow: auto;max-height: 250px;}
+#ul_my_prizes{list-style-type: none;padding: 5px 10px;font-size:14px;margin-bottom:10px;}
+#ul_my_prizes>li{text-align:left;padding:2px 5px;}
+#ul_my_prizes>li>span{font-weight:700;padding-right:10px;}
+#div_lottery {position: relative; width: 300px; height: 300px; margin: 0 auto; margin-top:20px;}
+#div_lottery>img{position: absolute;border-radius: 50%;max-width:300px;z-index:-1;}
+.plate { position: relative; width: 300px; height: 300px; margin:0 auto; padding: 20px; }
+#plateBtn { position: absolute; left: 68px; top: 68px; width: 165px; height: 165px; text-indent: -9999px; overflow: hidden;background-size:cover;    background-image: url(../../images/rotate-static.png);}
+#result { display: none; position: absolute; left: 65px; top: 155px; width: 300px; height: 120px; background-color: rgba(0,0,0,0.75); filter: alpha(opacity=90);}
+#resultTxt { padding: 45px 15px 0; font: 16px "Microsoft Yahei"; color: #fff; text-align: center;}
+#resultTxt em { color: #ffea76; font-style: normal;}
+#resultBtn { position: absolute; right: 5px; top: 5px; width: 25px; height: 25px; text-indent: -100px; background-image: url(@routes.Assets.at("../../images/close.png")); overflow: hidden;}
+.plate .proTitle{ text-align:center; width:70px; font-size:16px; color:#F00; font-weight:bold; position:absolute;}
+.plate .proTitle1{top: 36px;left: 156px;transform: rotate(23.5deg);-moz-transform: rotate(23.5deg);-webkit-transform: rotate(23.5deg);}
+.plate .proTitle2{top: 97px;left: 219px;transform: rotate(65.5deg);-moz-transform: rotate(65.5deg);-webkit-transform: rotate(65.5deg);}
+.plate .proTitle3{top: 178px;left: 217px;transform: rotate(113deg);-moz-transform: rotate(113deg);-webkit-transform: rotate(113deg);}
+.plate .proTitle4{top: 240px;left: 157px;transform: rotate(154deg);-moz-transform: rotate(154deg);-webkit-transform: rotate(154deg);}
+.plate .proTitle5{top: 238px;left: 70px;transform: rotate(206deg);-moz-transform: rotate(206deg);-webkit-transform: rotate(206deg);}
+.plate .proTitle6{top: 181px;left: 11px;transform: rotate(245deg);-moz-transform: rotate(245deg);-webkit-transform: rotate(245deg);}
+.plate .proTitle7{top: 95px;left: 12px;transform: rotate(294deg);-moz-transform: rotate(294deg);-webkit-transform: rotate(294deg);}
+.plate .proTitle8{top: 36px;left: 71px;transform: rotate(334deg);-moz-transform: rotate(334deg);-webkit-transform: rotate(334deg);}
+.lottery_info{padding: 0 20px;}
+.lottery_info .count{color:#333;font-size: 1.5rem;/* margin-bottom: 4rem; */margin: 0 auto;width: 14rem;height: 7rem;margin-bottom: 1rem; */}
+.lottery_info .count>span{color: white;}
+.prize{margin-top:20px;}
+.prize .head {width: 100%;border-bottom: 1px solid #444;height:30px;}
+.prize .rule {font-size:14px;color:#444;padding:10px;background-color:#f8f8f8!important;}
+.prize .rule p, .prize .rule span{/* background-color:#f8f8f8!important; */color: white;}
+.prize .head>span{color:#fff;padding:7px 10px;background-color: #444;font-weight:100;font-size:15px;}
+.prize ul{padding-left:10px;font-size:14px;color:#444;margin-top:10px;}
+.prize ul>li>strong{font-weight: 100;/* color: #dd514c; */font-weight: bold;}
+.prize h4 { margin: 80px 0 20px; padding: 10px; background-color: #eee;}
+.prize ul { list-style-type: none;}
+.prize li {margin: 10px;color: white;}
+footer>a{height:30px;line-height:30px;font-size:1.4rem;color:#888;width:100%;display:block;text-align:center;}
