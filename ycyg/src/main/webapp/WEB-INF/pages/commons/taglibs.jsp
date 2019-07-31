@@ -21,7 +21,7 @@
 <%--定义资源路径变量 --%>
 <c:set var="mimeBase" value="/assets" />
 <c:set var="vendorsBase" value="/assets/vendors" />
-<c:set var="uploadImageBase" value="http://localhost" ></c:set>
+<c:set var="uploadImageBase" value="http://localhost:8081" ></c:set>
 <c:set var="smallImageName" value="!t100x100.jpg"></c:set>
 
 <%--云购资源路径变量 --%>
