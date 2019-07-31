@@ -7,237 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e5b78f7-0f5b-488b-8427-402d3d8eb786" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company-yyg-web-front.iml" beforeDir="false" afterPath="$PROJECT_DIR$/company-yyg-web-front.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/yyg/front/utils/BaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/yyg/front/utils/BaseConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/yyg-base.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/yyg-base.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/commons/taglibs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/commons/taglibs.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/commons/YygConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/em/UserScoreTypeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/em/YgProductOrderStatusEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/em/YgProductStatusEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/AccessoryEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/AddressEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/AdvItemEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/AreaEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/ArticleCateEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/ArticleEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/BigWheelInfoEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/BigWheelJoinUserEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/BigWheelPrizeEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/BigWheelUserPrizeEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/BrandEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/ContentEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/ExpressComEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/PayRecordEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/ProductEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/SmsRecordEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/SysConfigEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/SysDictEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/SysNoticeEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/UserAccountDetailEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/UserEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/UserPhotoAblumEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/UserScoreEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/UserYgEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/YgCartEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/YgProductEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/YgProductOrderEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/entity/YgShareEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/utils/Base64.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/utils/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/utils/FileUploadVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/utils/ImageUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/utils/PageRequestUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/utils/PageUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/utils/UploadFileUtil$UploadFileUtilHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/base/utils/UploadFileUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/AccessoryDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/AddressDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/AdvItemDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/AreaDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/ArticleCateDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/ArticleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/BigWheelInfoDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/BigWheelJoinUserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/BigWheelPrizeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/BigWheelUserPrizeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/BrandDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/ContentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/ExpressComDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/PayRecordDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/ProductDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/SmsRecordDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/SysConfigDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/SysDictDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/UserAccountDetailDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/UserPhotoAblumDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/UserScoreDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/UserYgDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/YgCartDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/YgProductDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/YgProductOrderDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dao/YgShareDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dto/ContentDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dto/DataDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dto/IndexFloorDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dto/MessageDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dto/ProductPhotoDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dto/ScoreConfigDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dto/UserNameCheckInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/dto/WeixinDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/filter/AdminFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/filter/CustomFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/filter/MemberFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/filter/MobileOrPcFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/filter/XssHttpServletRequestWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/filter/XssProjectFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/mybatis/PayMybatisDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/service/FrontIndexService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/service/PayService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/service/ProductService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/service/ScoreService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/service/SysConfigService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/service/WhdService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/service/YgBuyService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/service/common/CommonService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/service/common/ImgService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/utils/BaseConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/utils/CaptchaUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/utils/CookieUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/utils/ElUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/utils/FileTypeUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/utils/IpUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/utils/QQUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/utils/RequestUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/utils/ValidUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/utils/WeixinAccessToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/utils/WeixinSign.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/utils/WeixinTicket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/utils/WeixinUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminAdvController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminAreaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminArticlesCateController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminArticlesController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminArticlesController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminBigWheelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminBrandController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminConfigController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminIndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminMembersController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminNoticeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminPayRecordController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminPayRecordController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminPhotoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminProductController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminSettingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminSysDictsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminUserAccountDetailController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminYgOrderController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminYgOrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminYgProductController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminYgProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/admin/controller/AdminYgShareController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/member/controller/MemberBuyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/member/controller/MemberController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/member/controller/MemberOrderController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/member/controller/MemberOrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/member/controller/WapMemberBuyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/member/controller/WapMemberController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/member/controller/WapMemberController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/member/controller/WapMemberOrderController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/member/controller/WapMemberOrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/AlipayController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/CaptchaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/ErrorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/ImgController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/PhotoManagerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/PubAreaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/PubArticleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/PubBigWheelFrontController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/PubCartController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/PubCartController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/PubFindPasswordController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/PubIndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/PubIntroduceController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/PubJiexiaoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/PubProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/PubRegistController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/PubShareController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/PubUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/PubWelcomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/UnionPayController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/controller/WxPayController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/pub/dto/CartDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapAboutUsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapAlipayController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapAreaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapBigWheelFrontController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapCaptchaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapCartController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapCartController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapErrorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapFindPasswordController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapImgController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapIndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapIntroduceController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapJiexiaoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapRegistController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapShareController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapWeixinShareController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapWelcomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/controller/WapWxPayController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/dto/CartDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/dto/CheckPhoneDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/front/web/wap/dto/PrizeResultDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/job/WeixinTokenJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/job/YgBatchJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/unionpay/sdk/AcpService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/unionpay/sdk/BaseHttpSSLSocketFactory$MyX509TrustManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/unionpay/sdk/BaseHttpSSLSocketFactory$TrustAnyHostnameVerifier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/unionpay/sdk/BaseHttpSSLSocketFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/unionpay/sdk/CertUtil$CerFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/unionpay/sdk/CertUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/unionpay/sdk/HttpClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/unionpay/sdk/LogUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/unionpay/sdk/SDKConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/unionpay/sdk/SDKConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/unionpay/sdk/SDKUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/unionpay/sdk/SecureUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/util/AlipayUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/util/Base64.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/util/UnionPayUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/util/WxPayUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/wxpay/sdk/HttpUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/wxpay/sdk/MD5Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/pay/wxpay/sdk/XMLUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/yyg/sms/SmsServcie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sqlMapper/PayMybatisSql.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yyg-base.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yyg-base.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yyg-data.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yyg-mail.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yyg-web-front-app.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WEB-INF/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/assets/wap/style/mobile/css/font/iconfont.svg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/assets/wap/style/mobile/css_02/font/iconfont.svg@t=1465277071.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/MyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/PasswordUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/SecurityUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/TestInitListArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/com/yyg/front/dao/UserDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tomcat/StartTomcat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/web-front-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yyg-base.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yyg-base.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/WEB-INF/classes/yyg-base.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/WEB-INF/classes/yyg-base.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -255,20 +31,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/yyg-base.properties">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/commons/taglibs.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+            <state relative-caret-position="456">
+              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/commons/taglibs.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/yyg-base.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/base/utils/UploadFileUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="281" lean-forward="true" selection-start-line="281" selection-end-line="281" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/service/common/ImgService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/utils/BaseConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/product/product_list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/product/product_edit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/ygproduct/product_list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/base/entity/ProductEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="519" lean-forward="true" selection-start-line="519" selection-end-line="519" />
             </state>
           </provider>
         </entry>
@@ -277,18 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>web-app</find>
-      <find>admin.css</find>
-      <find>yyyiduo</find>
-      <find>maven-compiler-plugin&lt;/</find>
-      <find>styles/</find>
-      <find>assets</find>
-      <find>jetty</find>
-      <find>158059</find>
-      <find>15805930886</find>
-      <find>huoxing2</find>
-      <find>{mimeBase}</find>
-      <find>stylesheet</find>
       <find>huoxing</find>
       <find>/images/pub</find>
       <find>error_remind_bg_500</find>
@@ -307,6 +145,18 @@
       <find>home/data/static</find>
       <find>12345678</find>
       <find>http://localhost</find>
+      <find>www.domain</find>
+      <find>localhost</find>
+      <find>develop.mode</find>
+      <find>develop</find>
+      <find>db.dialect</find>
+      <find>db.url</find>
+      <find>img.serverpath</find>
+      <find>BaseConfig</find>
+      <find>file.rootpath</find>
+      <find>getLogoPath</find>
+      <find>选择分类</find>
+      <find>cateList</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error</dir>
@@ -337,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/commons/taglibs.jsp" />
         <option value="$PROJECT_DIR$/../../javaWebData/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/yyg-base.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/yyg/front/utils/BaseConfig.java" />
       </list>
     </option>
   </component>
@@ -385,8 +236,53 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyg" type="462c0819:PsiDirectoryNode" />
+              <item name="sms" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,7 +301,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19090909" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -528,12 +424,13 @@
       <workItem from="1564489442716" duration="607000" />
       <workItem from="1564503420118" duration="1399000" />
       <workItem from="1564504830411" duration="1000" />
-      <workItem from="1564543064988" duration="1037000" />
+      <workItem from="1564543064988" duration="2190000" />
+      <workItem from="1564563134014" duration="1278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27676000" />
+    <option name="totallyTimeSpent" value="30107000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -548,7 +445,7 @@
     <frame x="-1680" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11172161" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13125764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -559,8 +456,8 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6898657" visible="true" weight="0.083333336" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44956142" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6898657" weight="0.083333336" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.21600877" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
@@ -669,6 +566,72 @@
           <properties />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/base/entity/ProductEntity.java</url>
+          <line>530</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/member/controller/WapMemberOrderController.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/wap/controller/WapJiexiaoController.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/wap/controller/WapProductController.java</url>
+          <line>431</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/member/controller/WapMemberController.java</url>
+          <line>386</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/member/controller/WapMemberController.java</url>
+          <line>502</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/base/entity/ProductEntity.java</url>
+          <line>529</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/utils/BaseConfig.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/utils/BaseConfig.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/articles/articles_add.jsp</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/articles/articles.jsp</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/main/webapp/assets/yg/style/common.js</url>
           <line>41</line>
@@ -699,58 +662,16 @@
           <line>86</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/webapp/assets/scripts/admin/product/product_edit.js</url>
+          <line>31</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/assets/vendors/amazeui/css/amazeui.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret column="553" lean-forward="true" selection-start-column="553" selection-end-column="553" />
-          <folding>
-            <element signature="e#40338#40661#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/styles/admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/vendors/amazeui/css/amazeui.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#40338#40661#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/styles/css/amazeui.min.css" />
-    <entry file="file://$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/assets/styles/css/css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/vendors/amazeui/css/admin.css" />
-    <entry file="file://$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/assets/vendors/amazeui/css/admin.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/vendors/boostrap-datetime-picker/css/bootstrap-datetimepicker.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/commons/meta.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="483" column="16" selection-start-line="483" selection-start-column="16" selection-end-line="483" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/commons/assets.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -770,13 +691,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/images/404.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/sms/SmsServcie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error/custom.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -953,24 +867,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/commons/taglibs.jsp">
+    <entry file="file://$PROJECT_DIR$/../../javaWebData/index.html" />
+    <entry file="file://$PROJECT_DIR$/assembly/conf/production/logging.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="94">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../javaWebData/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/yyg-data.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        <state relative-caret-position="265">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/base/entity/YgProductEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="198" column="8" selection-start-line="198" selection-start-column="8" selection-end-line="198" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/sms/SmsServcie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="132" column="49" selection-start-line="132" selection-start-column="42" selection-end-line="132" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/job/WeixinTokenJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/commons/taglibs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/yyg-base.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/base/utils/UploadFileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="281" lean-forward="true" selection-start-line="281" selection-end-line="281" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/service/common/ImgService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/base/entity/ProductEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="519" lean-forward="true" selection-start-line="519" selection-end-line="519" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/utils/BaseConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/product/product_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/product/product_edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/ygproduct/product_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>

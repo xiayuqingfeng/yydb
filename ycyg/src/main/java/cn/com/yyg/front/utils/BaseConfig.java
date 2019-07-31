@@ -14,8 +14,8 @@ public class BaseConfig {
 	@Value("${img.serverpath}")
 	private  String imgServerUrl;
 	/**
-	 * get imgServerUrl  
-	 * @return   
+	 * get imgServerUrl
+	 * @return
 	 * @author lvzf 2016年8月22日
 	 */
 	public  String getImgServerUrl() {
