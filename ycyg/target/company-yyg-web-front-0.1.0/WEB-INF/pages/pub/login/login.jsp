@@ -16,7 +16,7 @@
  <div class="dl-box login-box fn-clear">
   <form action="/login/check" id="login_form" method="post">
    <input name="username" type="text" class="input input-user" autocomplete="false" placeholder="输入手机号" value="" />
-   <input name="password" type="password" class="input input-pass" value="" placeholder="输入密码，初始密码${sysConfig.dataMap['initPwd']}" />
+   <input name="password" type="password" class="input input-pass" value="" placeholder="输入密码" />
    <div class="dl-btna fn-clear">
 <%--     <div class="ui-left oauth">
      <a href="javascript:void(0);" onclick="oauth('oauth/qq-open=1')">

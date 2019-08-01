@@ -15,7 +15,7 @@
 <c:set var="base" value="${pageContext.request.scheme}://${pageContext.request.serverName}${serverPort}${contextPath}" />
 <%--版本变量 --%>
 <c:set var="version" value="14"></c:set>
-<c:set var="comName" value="源创云购"></c:set>
+<c:set var="comName" value="幸运一点"></c:set>
 <c:set var="comTel" value="0592-5630282"></c:set>
 
 <%--定义资源路径变量 --%>

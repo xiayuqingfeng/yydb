@@ -34,9 +34,9 @@ public class SmsServcie {
 	/**短信密钥*/
 	public static final String APP_SECRET="0b11bf145fc4fbf4bc3a3c767434aa1a";
 	/**阿里签名：公司名称*/
-	public static final String SIGN_COM="厦门源创世界";
+	public static final String SIGN_COM="郑州中原视界";
 	/**产品名称*/
-	public static final String SIGN_PRODUCT="源创云购网";
+	public static final String SIGN_PRODUCT="幸运一点网";
 	/**验证码：登录模板*/
 	public static final String TPL_CODE_LOGIN="SMS_33545330";
 	/**验证码：注册模板*/

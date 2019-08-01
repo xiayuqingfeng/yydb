@@ -134,7 +134,7 @@
    <dd>Copyright©2016 ALL RIGHTS RESERVED. ICP经营许可证：<a target="_blank" href="http://www.miitbeian.gov.cn" style="color:#818181">闽ICP备16018459号-2</a>
 
     <p>
-    ${comName } ——平台由厦门源创世界网络科技有限公司研发打造 全国统一热线:${comTel }
+    ${comName }平台由郑州中原视界网络科技有限公司研发打造 全国统一热线:${comTel }
 
     </p>
    </dd>
