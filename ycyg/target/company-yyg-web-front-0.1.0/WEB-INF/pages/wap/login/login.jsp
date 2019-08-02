@@ -37,7 +37,7 @@
     <div class="form-box">
      <div class="Validform_checktip color01"></div>
      <div class="input">
-      <i class="ap-icon icon-psw"></i> <input name="password" class="txt" value="" type="password" placeholder="输入密码，初始密码${sysConfig.dataMap['initPwd']}" datatype="*" nullmsg="请输入密码，初始密码${sysConfig.dataMap['initPwd']}" />
+      <i class="ap-icon icon-psw"></i> <input name="password" class="txt" value="" type="password" placeholder="输入密码" datatype="*" nullmsg="请输入密码}" />
      </div>
     </div>
     <input type="hidden" name=backUrl value="${backUrl }"> <input class="btn" name="Submit" type="submit" value="立 即 登 录">

@@ -7,7 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e5b78f7-0f5b-488b-8427-402d3d8eb786" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/yyg-base.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/yyg-base.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/commons/taglibs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/commons/taglibs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pub/commons/taglibs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pub/commons/taglibs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/wap/commons/taglibs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/wap/commons/taglibs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/wap/login/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/wap/login/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/upload/user/space/1/2019/07/31/f7a9c09d-760c-43ce-a312-0972b516bd88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yyg-base.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yyg-base.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/WEB-INF/classes/yyg-base.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/WEB-INF/classes/yyg-base.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/upload/user/space/1/2019/07/31/f7a9c09d-760c-43ce-a312-0972b516bd88.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,20 +35,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/yyg-base.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="15">
+              <caret line="1" column="84" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="84" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/admin/controller/AdminArticlesController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/commons/taglibs.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="165" column="42" lean-forward="true" selection-start-line="165" selection-start-column="42" selection-end-line="165" selection-end-column="42" />
+            <state relative-caret-position="244">
+              <caret line="23" column="76" lean-forward="true" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/styles/admin.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="49" column="40" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pub/index/index_head.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="56" column="92" selection-start-line="56" selection-start-column="92" selection-end-line="56" selection-end-column="92" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#h1#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,6 +78,21 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>158059</find>
+      <find>15805930886</find>
+      <find>huoxing2</find>
+      <find>{mimeBase}</find>
+      <find>stylesheet</find>
+      <find>huoxing</find>
+      <find>/images/pub</find>
+      <find>error_remind_bg_500</find>
+      <find>500.</find>
+      <find>doFilterInternal</find>
+      <find>doFilter</find>
+      <find>500</find>
+      <find>filterChain</find>
+      <find>xieyiContent</find>
+      <find>获取短信验证码</find>
       <find>calibrationIdArray</find>
       <find>幸运大转盘</find>
       <find>sms_register</find>
@@ -54,36 +100,15 @@
       <find>yyyd</find>
       <find>home/data/static</find>
       <find>12345678</find>
-      <find>http://localhost</find>
-      <find>www.domain</find>
-      <find>localhost</find>
-      <find>develop.mode</find>
-      <find>develop</find>
-      <find>db.dialect</find>
-      <find>db.url</find>
-      <find>img.serverpath</find>
-      <find>BaseConfig</find>
-      <find>file.rootpath</find>
-      <find>getLogoPath</find>
-      <find>选择分类</find>
-      <find>cateList</find>
-      <find>APP首页幻灯片</find>
-      <find>请输入密码</find>
-      <find>初始密码</find>
-      <find>源创云购</find>
-      <find>源创</find>
-      <find>源创世界</find>
-      <find>厦门</find>
-      <find>中原世界</find>
-      <find>平台由郑州中原</find>
-      <find>contentDao.findOne(</find>
+      <find>最有趣</find>
+      <find>java源码</find>
+      <find>123456</find>
+      <find>输入密码</find>
+      <find>会员登录</find>
+      <find>8081</find>
+      <find>:8081</find>
+      <find>logo.png</find>
     </findStrings>
-    <replaceStrings>
-      <replace>幸运一点</replace>
-      <replace>中原世界</replace>
-      <replace>郑州</replace>
-      <replace>中原视界</replace>
-    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error</dir>
     </dirStrings>
@@ -97,10 +122,9 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/wap/controller/WapRegistController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/com/yyg/front/utils/WeixinUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/tomcat/StartTomcat.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/styles/admin.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/commons/assets.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/wap/login/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pub/login/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error/405.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error/404.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error/500.jsp" />
@@ -109,14 +133,14 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/pub/controller/PubIndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/pub/controller/PubRegistController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/pub/controller/PubBigWheelFrontController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/commons/taglibs.jsp" />
-        <option value="$PROJECT_DIR$/../../javaWebData/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/com/yyg/front/utils/BaseConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pub/login/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/about/1y/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/about/1y/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pub/index/index_foot.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/wap/commons/taglibs.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pub/commons/taglibs.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/scripts/admin/members.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/wap/login/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/styles/admin.css" />
         <option value="$PROJECT_DIR$/src/main/resources/yyg-base.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/commons/taglibs.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pub/index/index_head.jsp" />
       </list>
     </option>
   </component>
@@ -130,9 +154,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="/usr/local/apache-maven-3.3.3/repository" />
-        <option name="mavenHome" value="/usr/local/apache-maven-3.3.3" />
-        <option name="userSettingsFile" value="/usr/local/apache-maven-3.3.3/conf/settings.xml" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../developer/apache-maven-3.3.3/repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../developer/apache-maven-3.3.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../developer/apache-maven-3.3.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -152,11 +176,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1660" />
-    <option name="y" value="31" />
-    <option name="width" value="1680" />
-    <option name="height" value="1027" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1600" />
+    <option name="height" value="824" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -164,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,57 +210,36 @@
               <item name="ycyg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yyg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yyg" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yyg" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yyg" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -255,9 +256,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.19090909" />
+    <property name="project.structure.side.proportion" value="0.3523256" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
@@ -381,14 +382,12 @@
       <workItem from="1564489442716" duration="607000" />
       <workItem from="1564503420118" duration="1399000" />
       <workItem from="1564504830411" duration="1000" />
-      <workItem from="1564543064988" duration="2190000" />
-      <workItem from="1564563134014" duration="1796000" />
-      <workItem from="1564625976087" duration="11180000" />
+      <workItem from="1564504835939" duration="9197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41805000" />
+    <option name="totallyTimeSpent" value="35836000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,10 +399,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1680" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="1600" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15934066" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20474967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -414,8 +413,8 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6898657" weight="0.41776314" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44627193" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6898657" visible="true" weight="0.31557378" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44945356" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
@@ -524,66 +523,6 @@
           <properties />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/base/entity/ProductEntity.java</url>
-          <line>530</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/member/controller/WapMemberOrderController.java</url>
-          <line>136</line>
-          <properties />
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/wap/controller/WapJiexiaoController.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/wap/controller/WapProductController.java</url>
-          <line>431</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/member/controller/WapMemberController.java</url>
-          <line>386</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/member/controller/WapMemberController.java</url>
-          <line>502</line>
-          <properties />
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/base/entity/ProductEntity.java</url>
-          <line>529</line>
-          <properties />
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/utils/BaseConfig.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/utils/BaseConfig.java</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/admin/controller/AdminArticlesController.java</url>
-          <line>160</line>
-          <properties />
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/main/webapp/assets/yg/style/common.js</url>
           <line>41</line>
@@ -614,15 +553,24 @@
           <line>86</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/main/webapp/assets/scripts/admin/product/product_edit.js</url>
-          <line>31</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/photo/photo_select.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/about/1y/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="359" column="10" lean-forward="true" selection-start-line="359" selection-start-column="10" selection-end-line="359" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/target/company-yyg-web-front-0.1.0/assets/images/404.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -777,158 +725,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../javaWebData/index.html" />
-    <entry file="file://$PROJECT_DIR$/assembly/conf/production/logging.properties">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="118">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/yyg-data.xml">
+    <entry file="jar://$PROJECT_DIR$/../../developer/apache-maven-3.3.3/repository/org/springframework/spring-web/4.0.9.RELEASE/spring-web-4.0.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        <state relative-caret-position="105">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/base/entity/YgProductEntity.java">
+    <entry file="jar://$PROJECT_DIR$/../../developer/apache-maven-3.3.3/repository/org/springframework/spring-webmvc/4.0.9.RELEASE/spring-webmvc-4.0.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="198" column="8" selection-start-line="198" selection-start-column="8" selection-end-line="198" selection-end-column="8" />
+        <state relative-caret-position="109">
+          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/sms/SmsServcie.java">
+    <entry file="jar://$PROJECT_DIR$/../../developer/apache-maven-3.3.3/repository/org/springframework/spring-webmvc/4.0.9.RELEASE/spring-webmvc-4.0.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="132" column="49" selection-start-line="132" selection-start-column="42" selection-end-line="132" selection-end-column="49" />
+        <state relative-caret-position="118">
+          <caret line="414" selection-start-line="414" selection-end-line="414" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/job/WeixinTokenJob.java">
+    <entry file="jar://$PROJECT_DIR$/../../developer/apache-maven-3.3.3/repository/org/springframework/spring-webmvc/4.0.9.RELEASE/spring-webmvc-4.0.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="126">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/commons/taglibs.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/member/controller/MemberBuyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        <state relative-caret-position="231">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/base/utils/UploadFileUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/service/YgBuyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4959">
-          <caret line="281" selection-start-line="281" selection-end-line="281" />
+        <state relative-caret-position="140">
+          <caret line="401" column="11" lean-forward="true" selection-start-line="401" selection-start-column="11" selection-end-line="401" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/service/common/ImgService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/utils/BaseConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/product/product_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/product/product_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/ygproduct/product_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/articles/articles.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/base/entity/ProductEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8113">
-          <caret line="519" selection-start-line="519" selection-end-line="519" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/articles/articles_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/base/entity/SysDictEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/wap/login/regist.jsp">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
-          <caret line="41" column="118" selection-start-line="41" selection-start-column="118" selection-end-line="41" selection-end-column="118" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/user/space/1/2019/07/31/f7a9c09d-760c-43ce-a312-0972b516bd88.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/wap/login/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="39" column="116" lean-forward="true" selection-start-line="39" selection-start-column="116" selection-end-line="39" selection-end-column="116" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pub/login/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="70" lean-forward="true" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+        <state relative-caret-position="154">
+          <caret line="18" column="89" selection-start-line="18" selection-start-column="89" selection-end-line="18" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/about/1y/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/scripts/admin/members.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="303" column="52" selection-start-line="303" selection-start-column="52" selection-end-line="303" selection-end-column="52" />
+        <state relative-caret-position="143">
+          <caret line="286" selection-start-line="286" selection-end-line="286" selection-end-column="44" />
+          <folding>
+            <element signature="e#108#114#1" expanded="true" />
+            <element signature="e#80#86#1" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/yyg/front/web/admin/controller/AdminArticlesController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/wap/commons/taglibs.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="165" column="42" lean-forward="true" selection-start-line="165" selection-start-column="42" selection-end-line="165" selection-end-column="42" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pub/commons/taglibs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/commons/taglibs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="23" column="76" lean-forward="true" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/yyg-base.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="15">
+          <caret line="1" column="84" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/styles/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="49" column="40" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/pub/index/index_head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="56" column="92" selection-start-line="56" selection-start-column="92" selection-end-line="56" selection-end-column="92" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#h1#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -938,11 +868,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>company-yyg-web-front:war</last-edited>
+          <last-edited>company-yyg-web-front:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.19090909" />
+                <option value="0.3523256" />
                 <option value="0.5" />
               </list>
             </option>
