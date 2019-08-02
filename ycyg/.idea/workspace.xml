@@ -253,13 +253,6 @@
               <item name="ycyg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -276,7 +269,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="vendors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="company-yyg-web-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ycyg" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="company-yyg-web-front-0.1.0" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -433,6 +438,7 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="52803000" />
+    <option name="totallyTimeSpent" value="52802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,6 +450,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+
     <frame x="0" y="23" width="1600" height="824" extended-state="6" />
     <editor active="true" />
     <layout>

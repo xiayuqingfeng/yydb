@@ -18,7 +18,6 @@ body{background-color:#f8f8f8}
 #result { display: none; position: absolute; left: 65px; top: 155px; width: 300px; height: 120px; background-color: rgba(0,0,0,0.75); filter: alpha(opacity=90);}
 #resultTxt { padding: 45px 15px 0; font: 16px "Microsoft Yahei"; color: #fff; text-align: center;}
 #resultTxt em { color: #ffea76; font-style: normal;}
-#resultBtn { position: absolute; right: 5px; top: 5px; width: 25px; height: 25px; text-indent: -100px; background-image: url(@routes.Assets.at("../../images/close.png")); overflow: hidden;}
 .plate .proTitle{ text-align:center; width:70px; font-size:16px; color:#F00; font-weight:bold; position:absolute;}
 .plate .proTitle1{top: 36px;left: 156px;transform: rotate(23.5deg);-moz-transform: rotate(23.5deg);-webkit-transform: rotate(23.5deg);}
 .plate .proTitle2{top: 97px;left: 219px;transform: rotate(65.5deg);-moz-transform: rotate(65.5deg);-webkit-transform: rotate(65.5deg);}
@@ -29,7 +28,7 @@ body{background-color:#f8f8f8}
 .plate .proTitle7{top: 95px;left: 12px;transform: rotate(294deg);-moz-transform: rotate(294deg);-webkit-transform: rotate(294deg);}
 .plate .proTitle8{top: 36px;left: 71px;transform: rotate(334deg);-moz-transform: rotate(334deg);-webkit-transform: rotate(334deg);}
 .lottery_info{padding: 0 20px;}
-.lottery_info .count{color:#333;font-size: 1.5rem;/* margin-bottom: 4rem; */margin: 0 auto;width: 14rem;height: 7rem;margin-bottom: 1rem; */}
+.lottery_info .count{color:#333;font-size: 1.5rem;/* margin-bottom: 4rem; */margin: 0 auto;width: 14rem;height: 7rem;margin-bottom: 1rem;}
 .lottery_info .count>span{color: white;}
 .prize{margin-top:20px;}
 .prize .head {width: 100%;border-bottom: 1px solid #444;height:30px;}
