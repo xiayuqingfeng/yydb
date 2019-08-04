@@ -21,7 +21,7 @@
 <%--定义资源路径变量 --%>
 <c:set var="mimeBase" value="/assets" />
 <c:set var="vendorsBase" value="/assets/vendors" />
-<c:set var="uploadImageBase" value="http://localhost:8080/assets"></c:set>
+<c:set var="uploadImageBase" value="http://dapeng.nat300.top/assets"></c:set>
 
 <%--云购资源路径变量 --%>
 <c:set var="ygBase" value="/assets/yg" />
